@@ -55,6 +55,6 @@ app.post("/", function(req, res) {
     apiCall.end();
 })
 
-app.listen("7070", function() {
+app.listen(process.env.PORT || 7070, function() {
     console.log("Listening on port 7070");
 })
