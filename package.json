@@ -9,6 +9,7 @@
   "author": "der Kaiser",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.17.1"
   }
 }
